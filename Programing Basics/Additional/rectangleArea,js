@@ -1,0 +1,9 @@
+function rectangleArea(input) {
+  let side = Number(input[0]);
+  let height = Number(input[1]);
+
+  let surface = (side * height) / 2;
+
+  console.log(surface.toFixed(2));
+}
+rectangleArea([15, 35]);

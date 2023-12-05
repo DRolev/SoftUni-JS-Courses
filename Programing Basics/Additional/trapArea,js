@@ -1,0 +1,10 @@
+function trapArea(input){
+  let sideA = Number(input[0]);
+  let sideB = Number(input[1]);
+  let height = Number(input[2]);
+
+  let surface = (sideA + sideB) * height / 2;
+
+  console.log(surface.toFixed(2));
+}
+trapArea([8, 13, 7]);
